@@ -88,6 +88,16 @@
   margin-left: -400px;
 }
 
+.profile_cont {
+  display: flex;
+  flex-direction: row;
+}
+
+.profile {
+  border-radius: 50%;
+  display: flex;
+  flex-direction: row;
+}
 .center::after {
   background: var(--primary-glow);
   width: 240px;
@@ -97,7 +107,7 @@
 
 .center::before,
 .center::after {
-  content: '';
+  content: "";
   left: 50%;
   position: absolute;
   filter: blur(45px);

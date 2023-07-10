@@ -1,0 +1,149 @@
+.container {
+  margin: 50px 0px;
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  border: 2px solid #f27f94;
+  border-radius: 20px;
+}
+
+.left_container {
+  background: linear-gradient(to right, #f4c395, #f27f94);
+  border-radius: 20px;
+  width: 50%;
+}
+
+.header {
+  padding: 100px 70px 30px;
+}
+
+.header p {
+  color: #000;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.header h2 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #000;
+  margin: 20px 0px;
+}
+
+.cards {
+  display: flex;
+  gap: 0px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.card_inner {
+  background-color: #ffe3ca;
+  padding: 20px;
+  width: 300px;
+  border-radius: 10px;
+  color: #000;
+  filter: drop-shadow(5px 4px 5px);
+  margin: 10px;
+}
+
+.card_inner h3 {
+  padding: 10px 0px;
+  font-size: 18px;
+}
+
+.card_inner p {
+  font-size: 10px;
+}
+
+.privacy {
+  padding: 100px 70px 50px;
+  color: #000;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.right_container {
+  padding: 80px 0px 80px 80px;
+  width: 480px;
+}
+
+.right_container p {
+  color: #fff;
+  opacity: 0.6;
+  font-size: 16px;
+  padding: 10px 0px;
+}
+
+.button_google {
+  margin: 20px 0px;
+  padding: 15px;
+  width: 100%;
+  outline: none;
+  background-color: #fff;
+  font-size: 16px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  font-weight: 600;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+}
+
+.divider {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  padding: 10px 0px;
+}
+
+.input {
+  background-color: #33394f;
+  padding: 15px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.input::placeholder {
+  color: #fff;
+}
+
+.login {
+  margin: 20px 0px;
+  padding: 15px;
+  width: 100%;
+  outline: none;
+  background-color: #fc728b;
+  font-size: 16px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  font-weight: 600;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+}
+
+.reg {
+  text-align: center;
+  color: #fff;
+}
+
+.reg a {
+  color: #fc728b;
+  opacity: 1 !important;
+}
