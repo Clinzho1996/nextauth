@@ -1,12 +1,11 @@
 "use client";
 import React, { useState } from "react";
 import styles from "./page.module.css";
-import instagram from "../assets/instagram.png";
-import twitter from "../assets/twitter.png";
-import google from "../assets/google.png";
-import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
+import Carousel from "@/components/carousel/Carousel";
+
+import google from "../assets/google.png";
 
 const Register = () => {
   const [error, setError] = useState(null);
@@ -47,29 +46,7 @@ const Register = () => {
             Manage multiple <br /> accounts in one place!
           </h2>
         </div>
-        <div className={styles.cards}>
-          <div className={styles.card_inner}>
-            <Image src={twitter} alt="twitter" width={30} />
-            <h3>Twitter Account</h3>
-            <p>
-              Tweet, reply to tweet, manage DMs, and more in a single dashboard.
-            </p>
-          </div>
-          <div className={styles.card_inner}>
-            <Image src={instagram} alt="twitter" width={30} />
-            <h3>Instagram Account</h3>
-            <p>
-              Tweet, reply to tweet, manage DMs, and more in a single dashboard.
-            </p>
-          </div>
-          <div className={styles.card_inner}>
-            <Image src={google} alt="twitter" width={30} />
-            <h3>Google Account</h3>
-            <p>
-              Tweet, reply to tweet, manage DMs, and more in a single dashboard.
-            </p>
-          </div>
-        </div>
+        <Carousel />
         <div className={styles.privacy}>
           <Link href="/">Privacy Policy -</Link>
           <Link href="/"> Terms of Service</Link>

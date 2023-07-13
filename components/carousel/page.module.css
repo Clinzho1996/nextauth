@@ -1,0 +1,25 @@
+.cards {
+  display: flex;
+  gap: 0px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.card_inner {
+  background-color: #ffe3ca;
+  padding: 20px;
+  width: 230px;
+  border-radius: 10px;
+  color: #000;
+  filter: drop-shadow(5px 4px 5px);
+  margin: 10px;
+}
+
+.card_inner h3 {
+  padding: 10px 0px;
+  font-size: 18px;
+}
+
+.card_inner p {
+  font-size: 10px;
+}
